@@ -58,6 +58,41 @@
 
 
 
+# [nfs]
+# 3.14.134.153 ansible_ssh_user='ec2-user'
+
+
+# [webservers]
+# 18.220.42.243 ansible_ssh_user='ec2-user'
+# 18.189.195.158 ansible_ssh_user='ec2-user'
+
+# [db]
+# 18.117.192.251 ansible_ssh_user='ec2-user' 
+
+# [lb]
+# 18.116.87.94 ansible_ssh_user='ubuntu' 
+
+
+
+
+
+
+
+
+
+# [NFS-ansi]
+
+# [webservers]
+
+# [db]
+
+# [LB]
+
+
+
+
+
+
 
 
 
