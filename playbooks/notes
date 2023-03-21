@@ -1,42 +1,49 @@
-[nfs]
-172.31.11.165
+# [nfs]
+# 172.31.11.165
 
-[webservers]
-172.31.10.19
-172.31.12.81
+# [webservers]
+# 172.31.10.19
+# 172.31.12.81
 
-[db]
-172.31.14.241
+# [db]
+# 172.31.14.241
 
-[lb]
-172.31.2.61
+# [lb]
+# 172.31.2.61
 
-[nfs]
-172.31.11.165
+# [nfs]
+# 172.31.11.165
 
-[webservers]
-172.31.10.19
-172.31.12.81
+# [webservers]
+# 172.31.10.19
+# 172.31.12.81
 
-[db]
-172.31.14.241
+# [db]
+# 172.31.14.241
 
-[lb]
-172.31.2.61
+# [lb]
+# 172.31.2.61
 
-[all:vars]
-ansible_ssh_user=ec2-user
+# [all:vars]
+# ansible_ssh_user=ec2-user
 
-[webservers:vars]
-web_server_var=foo
+# [webservers:vars]
+# web_server_var=foo
 
-[db:vars]
-db_var=bar
-
-
+# [db:vars]
+# db_var=bar
 
 
-servers
+
+
+# Host jenkins-ansible
+#     HostName 3.16.218.228
+#     User ubuntu
+#     IdentityFile /home/ubuntu/Downloads/PBL3.pem
+#     ForwardAgent yes
+#     ControlPath /tmp/ansible-ssh-%h-%p-%r
+#     ControlMaster auto
+#     ControlPersist 10m
 
 
 
