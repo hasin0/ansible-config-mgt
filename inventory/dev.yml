@@ -1,22 +1,22 @@
 nfs:
   hosts:
-    3.14.134.153:
+    52.14.199.84:
       ansible_ssh_user: ec2-user
 
 webservers:
   hosts:
-    18.220.42.243:
+    3.139.83.144:
       ansible_ssh_user: ec2-user
-    18.189.195.158:
+    3.144.83.136:
       ansible_ssh_user: ec2-user
 
 db:
   hosts:
-    18.117.192.251:
+    3.143.244.106:
       ansible_ssh_user: ec2-user
 
 lb:
   hosts:
-    18.116.87.94:
+    3.139.98.63:
       ansible_ssh_user: ubuntu
 
