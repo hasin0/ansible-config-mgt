@@ -1,0 +1,6 @@
+uat-webservers:
+  hosts:
+    172.31.11.29:
+      ansible_user: ec2-user
+    172.31.5.183:
+      ansible_user: ec2-user
